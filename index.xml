@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Connor Greenwell</title>
-    <link>http://connorgreenwell.com/</link>
+    <link>https://connorgreenwell.github.io/</link>
     <description>Recent content on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://connorgreenwell.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://connorgreenwell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Started PhD at UK</title>
-      <link>http://connorgreenwell.com/news/started_phd/</link>
+      <link>https://connorgreenwell.github.io/news/started_phd/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/news/started_phd/</guid>
+      <guid>https://connorgreenwell.github.io/news/started_phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Fast Method for Estimating Transient Scene Attributes</title>
-      <link>http://connorgreenwell.com/publications/deeptransient/</link>
+      <link>https://connorgreenwell.github.io/publications/deeptransient/</link>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/publications/deeptransient/</guid>
+      <guid>https://connorgreenwell.github.io/publications/deeptransient/</guid>
       <description>
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://connorgreenwell.com/img/deeptransient/cartoon.png&#34;&gt;
+    &lt;img src=&#34;https://connorgreenwell.github.io/img/deeptransient/cartoon.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -48,23 +48,23 @@ previous methods, enabling real-world applications.&lt;/p&gt;
     
     <item>
       <title>Graduated from UK CS Undergrad</title>
-      <link>http://connorgreenwell.com/news/graduated_undergrad/</link>
+      <link>https://connorgreenwell.github.io/news/graduated_undergrad/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/news/graduated_undergrad/</guid>
+      <guid>https://connorgreenwell.github.io/news/graduated_undergrad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DeepFocal: A Method for Direct Focal Length Estimation</title>
-      <link>http://connorgreenwell.com/publications/deepfocal/</link>
+      <link>https://connorgreenwell.github.io/publications/deepfocal/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/publications/deepfocal/</guid>
+      <guid>https://connorgreenwell.github.io/publications/deepfocal/</guid>
       <description>
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://connorgreenwell.com/img/deepfocal/cartoon.png&#34;&gt;
+    &lt;img src=&#34;https://connorgreenwell.github.io/img/deepfocal/cartoon.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -85,14 +85,14 @@ automatic method which uses orthogonal vanishing points.&lt;/p&gt;
     
     <item>
       <title>Large-Scale Geo-Facial Image Analysis</title>
-      <link>http://connorgreenwell.com/publications/geofacial/</link>
+      <link>https://connorgreenwell.github.io/publications/geofacial/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/publications/geofacial/</guid>
+      <guid>https://connorgreenwell.github.io/publications/geofacial/</guid>
       <description>
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://connorgreenwell.com/img/geofaces/overview.jpg&#34;&gt;
+    &lt;img src=&#34;https://connorgreenwell.github.io/img/geofaces/overview.jpg&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -114,10 +114,10 @@ the highest percentage of people with a mustache.&lt;/p&gt;
     
     <item>
       <title>LastFM/REU Mashup</title>
-      <link>http://connorgreenwell.com/blog/hackathon2014/</link>
+      <link>https://connorgreenwell.github.io/blog/hackathon2014/</link>
       <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
       
-      <guid>http://connorgreenwell.com/blog/hackathon2014/</guid>
+      <guid>https://connorgreenwell.github.io/blog/hackathon2014/</guid>
       <description>&lt;p&gt;A web app with the lighthearted goal of identifying REU sites
 that satisfy both a students research interests and their musical
 taste. Suggested sites are defined as those that are within the
@@ -134,14 +134,14 @@ Fall 2014 Hackathon. The source code is available
     
     <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
-      <link>http://connorgreenwell.com/publications/geofaceexplorer/</link>
+      <link>https://connorgreenwell.github.io/publications/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/publications/geofaceexplorer/</guid>
+      <guid>https://connorgreenwell.github.io/publications/geofaceexplorer/</guid>
       <description>
 
 &lt;figure&gt;
-    &lt;img src=&#34;http://connorgreenwell.com/img/geofaces/world-beard-grid.png&#34;&gt;
+    &lt;img src=&#34;https://connorgreenwell.github.io/img/geofaces/world-beard-grid.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -167,10 +167,10 @@ between discovered regional clusters and geographical and national boundaries.&l
     
     <item>
       <title>About Me</title>
-      <link>http://connorgreenwell.com/about/</link>
+      <link>https://connorgreenwell.github.io/about/</link>
       <pubDate>Tue, 10 Nov 1992 00:00:00 +0000</pubDate>
       
-      <guid>http://connorgreenwell.com/about/</guid>
+      <guid>https://connorgreenwell.github.io/about/</guid>
       <description>
 
 &lt;p&gt;I am a PhD student and Research Assistant at the &lt;a href=&#34;http://uky.edu/&#34;&gt;University of

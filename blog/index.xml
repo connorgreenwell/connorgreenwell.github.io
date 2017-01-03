@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Connor Greenwell</title>
-    <link>http://connorgreenwell.com/blog/</link>
+    <link>https://connorgreenwell.github.io/blog/</link>
     <description>Recent content in Blogs on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2014 14:01:07 -0400</lastBuildDate>
-    <atom:link href="http://connorgreenwell.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://connorgreenwell.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LastFM/REU Mashup</title>
-      <link>http://connorgreenwell.com/blog/hackathon2014/</link>
+      <link>https://connorgreenwell.github.io/blog/hackathon2014/</link>
       <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
       
-      <guid>http://connorgreenwell.com/blog/hackathon2014/</guid>
+      <guid>https://connorgreenwell.github.io/blog/hackathon2014/</guid>
       <description>&lt;p&gt;A web app with the lighthearted goal of identifying REU sites
 that satisfy both a students research interests and their musical
 taste. Suggested sites are defined as those that are within the
