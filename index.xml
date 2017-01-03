@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Connor Greenwell</title>
+    <link>http://connorgreenwell.com/</link>
+    <description>Recent content on Connor Greenwell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://connorgreenwell.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Started PhD at UK</title>
+      <link>http://connorgreenwell.com/news/started_phd/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/news/started_phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Fast Method for Estimating Transient Scene Attributes</title>
+      <link>http://connorgreenwell.com/publications/deeptransient/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publications/deeptransient/</guid>
+      <description>
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://connorgreenwell.com/img/deeptransient/cartoon.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;We propose to use deep convolutional neural networks to estimate the transient
+attributes of a scene from a single image. Transient scene attributes describe
+both the objective conditions, such as the weather, time of day, and the
+season, and subjective properties of a scene, such as whether or not the scene
+seems busy. Recently, convolutional neural networks have been used to achieve
+state-of-the-art results for many vision problems, from object detection to
+scene classification, but have not previously been used for estimating
+transient attributes. We compare several methods for adapting an existing
+network architecture and present state-of-the-art results on two benchmark
+datasets. Our method is more accurate and significantly faster than all
+previous methods, enabling real-world applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graduated from UK CS Undergrad</title>
+      <link>http://connorgreenwell.com/news/graduated_undergrad/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/news/graduated_undergrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepFocal: A Method for Direct Focal Length Estimation</title>
+      <link>http://connorgreenwell.com/publications/deepfocal/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publications/deepfocal/</guid>
+      <description>
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://connorgreenwell.com/img/deepfocal/cartoon.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Estimating the focal length of an image is an important preprocessing step for
+many applications. Despite this, existing methods for single-view focal length
+estimation are limited in that they require particular geometric calibration
+objects, such as orthogonal vanishing points, co-planar circles, or a
+calibration grid, to occur in the field of view. In this work, we explore the
+application of a deep convolutional neural network, trained on natural images
+obtained from Internet photo collections, to directly estimate the focal length
+using only raw pixel intensities as input features. We present quantitative
+results that demonstrate the ability of our technique to estimate the focal
+length with comparisons against several baseline methods, including an
+automatic method which uses orthogonal vanishing points.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large-Scale Geo-Facial Image Analysis</title>
+      <link>http://connorgreenwell.com/publications/geofacial/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publications/geofacial/</guid>
+      <description>
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://connorgreenwell.com/img/geofaces/overview.jpg&#34;&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;While face analysis from images is a well-studied area, little work has
+explored the dependence of facial appearance on the geographic location from
+which the image was captured. To fill this gap, we constructed GeoFaces, a
+large dataset of geotagged face images, and used it to examine the
+geo-dependence of facial features and attributes, such as ethnicity, gender, or
+the presence of facial hair. Our analysis illuminates the relationship between
+raw facial appearance, facial attributes, and geographic location, both
+globally and in selected major urban areas. Some of our experiments, and the
+resulting visualizations, confirm prior expectations, such as the predominance
+of ethnically Asian faces in Asia, while others highlight novel information
+that can be obtained with this type of analysis, such as the major city with
+the highest percentage of people with a mustache.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LastFM/REU Mashup</title>
+      <link>http://connorgreenwell.com/blog/hackathon2014/</link>
+      <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
+      
+      <guid>http://connorgreenwell.com/blog/hackathon2014/</guid>
+      <description>&lt;p&gt;A web app with the lighthearted goal of identifying REU sites
+that satisfy both a students research interests and their musical
+taste. Suggested sites are defined as those that are within the
+intersection of states that contain a relevant REU site and
+states that will host a concert by the relevant artist that
+summer (e.g. &amp;ldquo;states that contain micro-biology&amp;rdquo; &amp;cap; &amp;ldquo;states
+        that will host Kanye West&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;This was written in less than 12 hours as part of the UK ACM&amp;rsquo;s
+Fall 2014 Hackathon. The source code is available
+&lt;a href=&#34;https://github.com/connorgreenwell/music-reu-mashup&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
+      <link>http://connorgreenwell.com/publications/geofaceexplorer/</link>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publications/geofaceexplorer/</guid>
+      <description>
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://connorgreenwell.com/img/geofaces/world-beard-grid.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The images uploaded to social networking websites are a rich source of
+information about the appearance of people around the world. We present a
+system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing
+this data. GeoFaceExplorer allows for the crowdsourced collection of human
+facial images, as well as automated and interactive visual analysis of the
+geo-dependence of facial appearance and visual attributes, such as ethnicity,
+gender, and whether or not a person is wearing glasses. As a case study,
+automated approaches are applied to detect common facial attributes in a large
+set of geo-tagged human faces, leading to several analysis results that
+illuminate the relationship between raw facial appearance, facial attributes,
+and geographic location.  We show how the distribution of these attributes
+differs in ten major urban areas. Our analysis also shows a similar expected
+distribution of ethnicity within large urban areas in comparison to manually
+collected U.S. census data. In addition, by applying automated hierarchical
+clustering to facial attribute similarity, we find a large degree of overlap
+between discovered regional clusters and geographical and national boundaries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://connorgreenwell.com/about/</link>
+      <pubDate>Tue, 10 Nov 1992 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/about/</guid>
+      <description>
+
+&lt;p&gt;I am a PhD student and Research Assistant at the &lt;a href=&#34;http://uky.edu/&#34;&gt;University of
+Kentucky&lt;/a&gt;, where my advisor is &lt;a href=&#34;http://cs.uky.edu/~jacobs/&#34;&gt;Dr. Nathan
+Jacobs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mapping with Computer Vision&lt;/li&gt;
+&lt;li&gt;Generative Models&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;history&#34;&gt;History&lt;/h1&gt;
+
+&lt;p&gt;Previously, I worked as an undergraduate researcher at &lt;a href=&#34;http://uky.edu&#34;&gt;UKs&lt;/a&gt;
+&lt;a href=&#34;http://vis.uky.edu/&#34;&gt;Vis Center&lt;/a&gt; from January 2014 to May 2016.&lt;/p&gt;
+
+&lt;p&gt;In the summer of 2014, I worked at &lt;a href=&#34;http://www.uncc.edu/&#34;&gt;UNCCs&lt;/a&gt;
+&lt;a href=&#34;http://vialab.uncc.edu/&#34;&gt;ViaLab&lt;/a&gt;, with &lt;a href=&#34;http://odin.uncc.edu/~souvenir/&#34;&gt;Dr. Richard
+Souvenir&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

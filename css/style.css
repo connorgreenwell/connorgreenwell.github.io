@@ -1,0 +1,63 @@
+html {margin: 0 0.5em;}
+body {
+	background-color: white;
+    font-family: 'Lato', sans-serif;
+	line-height: 1.5;
+	margin: 1ex auto;
+	max-width: 48em;
+	text-align: justify;
+	counter-reset: section;
+	word-wrap: break-word;
+}
+
+h1 {
+	font-variant: small-caps;
+}
+
+pre {
+	font-family: monospace,monospace;
+	font-size: 0.9em;
+	border: 1px dotted silver;
+	overflow: auto;
+	padding: .5em;
+	text-align: left;
+}
+
+code,kbd,samp,tt {
+	font-family: monospace,monospace; /* undoes the smaller-monospace of most browsers */
+	font-size: 0.9em;
+	padding-left: .25em;
+	padding-right: .25em;
+}
+
+img {
+	border-style: none;
+	position: relative;
+	bottom: -0.4ex;
+    width: auto;
+    max-width: 100%;
+    max-height: 48ex;
+}
+
+figure {
+    text-align:center;
+}
+
+aside {
+	font-size: 0.9em;
+	float: right;
+	max-width: 20em;
+	border: 1px solid silver;
+	margin: 0em 0em 0em 1em;
+	padding: .5em 1em;
+}
+
+a:link {
+	color: #0077CC;
+	text-decoration: none;
+}
+a:hover {
+	color: #0077CC;
+	text-decoration: underline;
+}
+a:visited { color: #446688; }

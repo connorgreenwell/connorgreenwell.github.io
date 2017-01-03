@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/connorgreenwell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://connorgreenwell.com
+  * I am connorgreenwell (https://keybase.io/connorgreenwell) on keybase.
+  * I have a public key with fingerprint 564E 2DF1 D7FF 921E 52B7  2BCB 8928 72C7 4FD5 F2E3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "564e2df1d7ff921e52b72bcb892872c74fd5f2e3",
+            "host": "keybase.io",
+            "key_id": "892872c74fd5f2e3",
+            "kid": "010186b1ce52a50547e9e1b8d18dd66996b40a58a764248b3414e76151146e5942a70a",
+            "uid": "f12a45a261d4efac62ca71232adac919",
+            "username": "connorgreenwell"
+        },
+        "service": {
+            "hostname": "connorgreenwell.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1433432161,
+    "expire_in": 157680000,
+    "prev": "a7075fb53b5451333501cac6c9147909b2d0d7b7e9b40dd4d00c9788c1a25d1a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIcAnicbZJbSBVBGMePdvFCZYT1UGi1aNThYDuzM3s5lFFWYqQPXSAyjszszHo2
+bXfdc9TMLKgosbDChzBRjIiKKIqKqLCLSFcKshI06KEgsBAzMroQNCv11rwM833/
+/2/m+zN90yeFMlMul9LizpRXgylP75fVhjZ7HmmUqMsapGijVMUnNst2Krnv+baT
+lKISVhGHzAJMsywDAo4h1SA1qW5AXYOmhiyGLcgVKSLF3UTgEBhKErzAdkVNHCps
+Jqr/0VdNNGQgA12lwBRogmWMNG5wQHUGdMZU1TBUimSCdaKpCCKdKgggrqkAA4BU
+jg0EiSYTgaudwFkAEoQJVAFD3CKmCk2iAahAwohpACMQJrjvkB1cqE3XcVy/0ufc
+qefV1VJTRBLNOtvkQRLBQP8XFpjuDkHyfDfpmm61EMSTSS8a+JMNXmCo57TiL6qC
+2g4ToQpDHfcTtutIUSCUZtIO2AApClIgUEFE4js92+cVdqDAmqrLYgXX8DqBFHNq
+2KJYoRhhoCgKloEpJhRjIc2QDQqZzDQq8hOJMYaYLJuGpusmIBAzEGSU4DWOK0WR
+eCapFMiEXemQZK3Ppabee9smh1IyQ1OnpAbfIpSZMfPfZ4m56aGWV+kMxPpLe4Y+
+lc86ncwqOdswdrHrbu7bgpGlJde/4KobT95v/p2e/ahncHhL69XRcLwrcrN1YKDT
+rnUOLOvOurKmbfHrCD526OPJ5zVe/GyRfGm9URO7tffEt5zs/Xnd5YXdu8d2jTfN
+KY2NvA93pI1vqG+v/3ihLGc53FD+suAI3X6hI2Oyp5/q7xrdiIaPrkjVzvWo7Vv1
+3E0rw+Hlvc9WvfgeDj07szDtePP8O4c/9PlvvLbUr1/y++PTVvzI2zf4+MEC1JWR
+tvrH55+Fm3Lu03dFLWOvlwxpixbNjV1DrHnP7BeXwK/b6zLyZ62dOy+XPDxfFlvQ
+VmMU95kzDk7r/gOaDiZm
+=ximi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/connorgreenwell
+
+==================================================================
+
