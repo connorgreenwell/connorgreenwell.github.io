@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Connor Greenwell</title>
-    <link>https://connorgreenwell.github.io/news/</link>
+    <link>https://connorgreenwell.github.io/news/index.xml</link>
     <description>Recent content in News on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

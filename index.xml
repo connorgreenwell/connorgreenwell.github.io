@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Connor Greenwell</title>
-    <link>https://connorgreenwell.github.io/</link>
+    <link>https://connorgreenwell.github.io/index.xml</link>
     <description>Recent content on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -168,14 +168,23 @@ between discovered regional clusters and geographical and national boundaries.&l
     <item>
       <title>About Me</title>
       <link>https://connorgreenwell.github.io/about/</link>
-      <pubDate>Tue, 10 Nov 1992 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/about/</guid>
       <description>
 
-&lt;p&gt;I am a PhD student and Research Assistant at the &lt;a href=&#34;http://uky.edu/&#34;&gt;University of
-Kentucky&lt;/a&gt;, where my advisor is &lt;a href=&#34;http://cs.uky.edu/~jacobs/&#34;&gt;Dr. Nathan
-Jacobs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am a first year PhD student and Research Assistant in the Department of
+&lt;a href=&#34;http://cs.uky.edu/&#34; title=&#34;Department of Computer Science&#34;&gt;Computer Science&lt;/a&gt; at the &lt;a href=&#34;http://uky.edu/&#34; title=&#34;University of Kentucky&#34;&gt;University of Kentucky&lt;/a&gt;. My advisor is
+&lt;a href=&#34;http://cs.uky.edu/~jacobs/&#34; title=&#34;Dr. Nathan Jacobs&#34;&gt;Dr. Nathan Jacobs&lt;/a&gt;. My research invloves applying deep learning to the
+field of computer vision; specifically the tasks of camera geocalibration and
+mapping relationships in large sets of facial imagery.&lt;/p&gt;
+
+&lt;p&gt;Previously, I worked as an undergraduate researcher at &lt;a href=&#34;http://uky.edu/&#34; title=&#34;University of Kentucky&#34;&gt;UKs&lt;/a&gt; &lt;a href=&#34;http://vis.uky.edu/&#34; title=&#34;The VisCenter&#34;&gt;Vis
+Center&lt;/a&gt; from January 2014 to May 2016. In the summer of 2014, I worked at
+&lt;a href=&#34;http://www.uncc.edu/&#34; title=&#34;UNC - Charlotte&#34;&gt;UNCCs&lt;/a&gt; &lt;a href=&#34;http://vialab.uncc.edu/&#34; title=&#34;The ViaLab&#34;&gt;ViaLab&lt;/a&gt;, under the direction of &lt;a href=&#34;https://cis.temple.edu/~souvenir/&#34; title=&#34;Dr. Richard Souvenir&#34;&gt;Dr. Richard
+Souvenir&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can keep up with my work on &lt;a href=&#34;https://www.semanticscholar.org/author/Connor-Greenwell/2121759&#34;&gt;Semantic Scholar&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h1&gt;
 
@@ -184,15 +193,6 @@ Jacobs&lt;/a&gt;.&lt;/p&gt;
 &lt;li&gt;Generative Models&lt;/li&gt;
 &lt;li&gt;Deep Learning&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h1 id=&#34;history&#34;&gt;History&lt;/h1&gt;
-
-&lt;p&gt;Previously, I worked as an undergraduate researcher at &lt;a href=&#34;http://uky.edu&#34;&gt;UKs&lt;/a&gt;
-&lt;a href=&#34;http://vis.uky.edu/&#34;&gt;Vis Center&lt;/a&gt; from January 2014 to May 2016.&lt;/p&gt;
-
-&lt;p&gt;In the summer of 2014, I worked at &lt;a href=&#34;http://www.uncc.edu/&#34;&gt;UNCCs&lt;/a&gt;
-&lt;a href=&#34;http://vialab.uncc.edu/&#34;&gt;ViaLab&lt;/a&gt;, with &lt;a href=&#34;http://odin.uncc.edu/~souvenir/&#34;&gt;Dr. Richard
-Souvenir&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
