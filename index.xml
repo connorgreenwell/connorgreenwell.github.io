@@ -26,9 +26,14 @@
       <guid>https://connorgreenwell.github.io/publications/deeptransient/</guid>
       <description>
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://connorgreenwell.github.io/img/deeptransient/cartoon.png&#34;&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://connorgreenwell.github.io/img/deeptransient/splice.png&#34; /&gt;
+    
+    
 &lt;/figure&gt;
+
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -173,6 +178,15 @@ between discovered regional clusters and geographical and national boundaries.&l
       <guid>https://connorgreenwell.github.io/about/</guid>
       <description>
 
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://connorgreenwell.github.io/img/me.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
 &lt;p&gt;I am a first year PhD student and Research Assistant in the Department of
 &lt;a href=&#34;http://cs.uky.edu/&#34; title=&#34;Department of Computer Science&#34;&gt;Computer Science&lt;/a&gt; at the &lt;a href=&#34;http://uky.edu/&#34; title=&#34;University of Kentucky&#34;&gt;University of Kentucky&lt;/a&gt;. My advisor is
 &lt;a href=&#34;http://cs.uky.edu/~jacobs/&#34; title=&#34;Dr. Nathan Jacobs&#34;&gt;Dr. Nathan Jacobs&lt;/a&gt;. My research invloves applying deep learning to the
@@ -182,9 +196,7 @@ mapping relationships in large sets of facial imagery.&lt;/p&gt;
 &lt;p&gt;Previously, I worked as an undergraduate researcher at &lt;a href=&#34;http://uky.edu/&#34; title=&#34;University of Kentucky&#34;&gt;UKs&lt;/a&gt; &lt;a href=&#34;http://vis.uky.edu/&#34; title=&#34;The VisCenter&#34;&gt;Vis
 Center&lt;/a&gt; from January 2014 to May 2016. In the summer of 2014, I worked at
 &lt;a href=&#34;http://www.uncc.edu/&#34; title=&#34;UNC - Charlotte&#34;&gt;UNCCs&lt;/a&gt; &lt;a href=&#34;http://vialab.uncc.edu/&#34; title=&#34;The ViaLab&#34;&gt;ViaLab&lt;/a&gt;, under the direction of &lt;a href=&#34;https://cis.temple.edu/~souvenir/&#34; title=&#34;Dr. Richard Souvenir&#34;&gt;Dr. Richard
-Souvenir&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can keep up with my work on &lt;a href=&#34;https://www.semanticscholar.org/author/Connor-Greenwell/2121759&#34;&gt;Semantic Scholar&lt;/a&gt;.&lt;/p&gt;
+Souvenir&lt;/a&gt;, as part of a NSF REU.&lt;/p&gt;
 
 &lt;h1 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h1&gt;
 
@@ -192,6 +204,16 @@ Souvenir&lt;/a&gt;.&lt;/p&gt;
 &lt;li&gt;Mapping with Computer Vision&lt;/li&gt;
 &lt;li&gt;Generative Models&lt;/li&gt;
 &lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:connor&amp;lt;at&amp;gt;cs&amp;lt;dot&amp;gt;uky&amp;lt;dot&amp;gt;edu&#34;&gt;email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=-VbQHygAAAAJ&#34;&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.semanticscholar.org/author/Connor-Greenwell/2121759&#34;&gt;Semantic Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/connorgreenwell&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/csgreenwell&#34;&gt;Twitter (I&amp;rsquo;m not very active&amp;hellip;)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
