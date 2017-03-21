@@ -31,6 +31,8 @@ code,kbd,samp,tt {
 }
 
 img {
+  display: block;
+	margin: 0 auto;
 	border-style: none;
 	position: relative;
 	bottom: -0.4ex;
@@ -61,6 +63,11 @@ a:hover {
 	text-decoration: underline;
 }
 a:visited { color: #446688; }
+
+blockquote {
+  border-left: 0.5em solid lightgrey;
+	padding-left: 0.5em;
+}
 
 /* Glyph, by Harry Roberts */
 
