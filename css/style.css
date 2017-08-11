@@ -1,17 +1,13 @@
 html {margin: 0 0.5em;}
 body {
 	background-color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
 	margin: 1ex auto;
 	max-width: 48em;
 	text-align: justify;
 	counter-reset: section;
 	word-wrap: break-word;
-}
-
-h1 {
-	font-variant: small-caps;
 }
 
 pre {
@@ -43,6 +39,21 @@ img {
 
 figure {
     text-align:center;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 1ex;
+}
+td {
+    border: 1px solid black;
 }
 
 aside {
