@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Connor Greenwell</title>
-    <link>https://connorgreenwell.github.io/</link>
-    <description>Recent content on Connor Greenwell</description>
+    <title>Publications on Connor Greenwell</title>
+    <link>https://connorgreenwell.github.io/publication/</link>
+    <description>Recent content in Publications on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jun 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://connorgreenwell.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://connorgreenwell.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season</title>
-      <link>https://connorgreenwell.github.io/blog/fouls_by_and_drawn/</link>
-      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/blog/fouls_by_and_drawn/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Started PhD at UK</title>
-      <link>https://connorgreenwell.github.io/news/started_phd/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/started_phd/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A Fast Method for Estimating Transient Scene Attributes</title>
@@ -35,24 +17,6 @@
       
       <guid>https://connorgreenwell.github.io/publication/deeptransient/</guid>
       <description>Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
-    </item>
-    
-    <item>
-      <title>A Fast Method for Estimating Transient Scene Attributes accepted to WACV</title>
-      <link>https://connorgreenwell.github.io/news/deeptransient/</link>
-      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/deeptransient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graduated from UK CS Undergrad</title>
-      <link>https://connorgreenwell.github.io/news/graduated_undergrad/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/graduated_undergrad/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -65,15 +29,6 @@
     </item>
     
     <item>
-      <title>DeepFocal: A Method for Direct Focal Length Estimation accepted to ICIP</title>
-      <link>https://connorgreenwell.github.io/news/deepfocal/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/deepfocal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Large-Scale Geo-Facial Image Analysis</title>
       <link>https://connorgreenwell.github.io/publication/geofacial/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
@@ -83,40 +38,12 @@
     </item>
     
     <item>
-      <title>Large-Scale Geo-Facial Image Analysis accepted to EURASIP</title>
-      <link>https://connorgreenwell.github.io/news/geofacial/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/geofacial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LastFM/REU Mashup</title>
-      <link>https://connorgreenwell.github.io/blog/hackathon2014/</link>
-      <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/blog/hackathon2014/</guid>
-      <description>A web app with the lighthearted goal of identifying REU sites that satisfy both a students research interests and their musical taste. Suggested sites are defined as those that are within the intersection of states that contain a relevant REU site and states that will host a concert by the relevant artist that summer (e.g. &amp;ldquo;states that contain micro-biology&amp;rdquo; &amp;cap; &amp;ldquo;states that will host Kanye West&amp;rdquo;).
-This was written in less than 12 hours as part of the UK ACM&amp;rsquo;s Fall 2014 Hackathon.</description>
-    </item>
-    
-    <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
       <link>https://connorgreenwell.github.io/publication/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/geofaceexplorer/</guid>
       <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
-    </item>
-    
-    <item>
-      <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes accepted to ACM SIGSPATIAL (GEOCROWD)</title>
-      <link>https://connorgreenwell.github.io/news/geofaceexplorer/</link>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/geofaceexplorer/</guid>
-      <description></description>
     </item>
     
   </channel>

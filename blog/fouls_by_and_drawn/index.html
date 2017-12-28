@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season</title>
+
+  
+  <meta name="description" content="">
+
+  
+  <meta itemprop="name" content="An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season">
+  <meta itemprop="description" content="">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season">
+  <meta name="twitter:description" content="">
+  
+
+  
+  <meta name="og:title" content="An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season">
+  <meta name="og:description" content="">
+  <meta name="og:type" content="website">
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/hugo-tufte.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/latex.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/connor.css"/>
+</head>
+
+<body>
+
+
+<nav class="menu">
+<ul>
+
+    <li>
+        <a href="/">Home</a>
+    </li>
+
+    <li>
+        <a href="/publication">Publications</a>
+    </li>
+
+    <li>
+        <a href="/pdfs/cv.pdf">CV</a>
+    </li>
+
+</ul>
+</nav>
+
+
+<section>
+<h1>An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season</h1>
+<p class="subtitle">November 21, 2017</p>
+
+<p></p>
+
+<pre><code class="language-python">req = requests.get(&quot;https://www.basketball-reference.com/boxscores/201610260IND.html&quot;)
+box_html = str(req.content)
+boxes = pd.read_html(box_html)
+</code></pre>
+
+<pre><code class="language-python">minutes_played = pd.concat([boxes[0][[0, 1]], boxes[2][[0, 1]]])
+minutes_played.columns = [&quot;Name&quot;, &quot;MP&quot;]
+
+minutes_played.drop(
+    minutes_played.index[minutes_played[&quot;MP&quot;].str.contains(&quot;MP&quot;)], 
+    inplace=True)
+minutes_played.drop(
+    minutes_played.index[minutes_played[&quot;MP&quot;].str.contains(&quot;Did Not Play&quot;)], 
+    inplace=True)
+minutes_played.drop(
+    minutes_played.index[minutes_played[&quot;Name&quot;].str.contains(&quot;Team Totals&quot;)], 
+    inplace=True)
+
+# convert &quot;time remaining in quarter&quot; to &quot;time elapsed in game&quot;
+def stime_to_float(stime):
+    import datetime
+    dt = datetime.datetime.strptime(stime, &quot;%M:%S&quot;)
+    return dt.minute + (dt.second / 60.0)
+
+minutes_played[&quot;MP&quot;] = minutes_played[&quot;MP&quot;].apply(stime_to_float)
+
+def short_name(name):
+    first, last = name.split()
+    return &quot;{}. {}&quot;.format(first[0], last)
+
+minutes_played[&quot;Name&quot;] = minutes_played[&quot;Name&quot;].apply(short_name)
+minutes_played.index = minutes_played[&quot;Name&quot;]
+
+minutes_played
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>MP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>D. Williams</th>
+      <td>40.000000</td>
+    </tr>
+    <tr>
+      <th>W. Matthews</th>
+      <td>39.616667</td>
+    </tr>
+    <tr>
+      <th>D. Nowitzki</th>
+      <td>38.400000</td>
+    </tr>
+    <tr>
+      <th>H. Barnes</th>
+      <td>34.683333</td>
+    </tr>
+    <tr>
+      <th>A. Bogut</th>
+      <td>19.666667</td>
+    </tr>
+    <tr>
+      <th>J. Barea</th>
+      <td>39.116667</td>
+    </tr>
+    <tr>
+      <th>J. Anderson</th>
+      <td>19.316667</td>
+    </tr>
+    <tr>
+      <th>D. Powell</th>
+      <td>16.483333</td>
+    </tr>
+    <tr>
+      <th>S. Curry</th>
+      <td>15.750000</td>
+    </tr>
+    <tr>
+      <th>Q. Acy</th>
+      <td>0.933333</td>
+    </tr>
+    <tr>
+      <th>N. Brussino</th>
+      <td>0.583333</td>
+    </tr>
+    <tr>
+      <th>M. Ellis</th>
+      <td>44.016667</td>
+    </tr>
+    <tr>
+      <th>P. George</th>
+      <td>42.766667</td>
+    </tr>
+    <tr>
+      <th>M. Turner</th>
+      <td>37.483333</td>
+    </tr>
+    <tr>
+      <th>J. Teague</th>
+      <td>36.750000</td>
+    </tr>
+    <tr>
+      <th>T. Young</th>
+      <td>34.216667</td>
+    </tr>
+    <tr>
+      <th>R. Stuckey</th>
+      <td>21.900000</td>
+    </tr>
+    <tr>
+      <th>C. Miles</th>
+      <td>12.550000</td>
+    </tr>
+    <tr>
+      <th>A. Jefferson</th>
+      <td>10.900000</td>
+    </tr>
+    <tr>
+      <th>L. Allen</th>
+      <td>10.733333</td>
+    </tr>
+    <tr>
+      <th>G. Robinson</th>
+      <td>10.233333</td>
+    </tr>
+    <tr>
+      <th>J. Young</th>
+      <td>3.450000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<pre><code class="language-python">fouls = play_by_play[&quot;Home Events&quot;].loc[
+    play_by_play[&quot;Home Events&quot;].str.contains(&quot;\sfoul by\s&quot;)
+].values.tolist() + \
+play_by_play[&quot;Away Events&quot;].loc[
+    play_by_play[&quot;Away Events&quot;].str.contains(&quot;\sfoul by\s&quot;)
+].values.tolist()
+
+fouls
+</code></pre>
+
+<pre><code>['Personal take foul by A. Bogut (drawn by J. Teague)',
+ 'Personal foul by H. Barnes (drawn by M. Turner)',
+ 'Shooting block foul by S. Curry (drawn by R. Stuckey)',
+ 'Personal foul by S. Curry (drawn by R. Stuckey)',
+ 'Shooting block foul by D. Williams (drawn by J. Teague)',
+ 'Shooting foul by T. Young (drawn by A. Bogut)',
+ 'Personal foul by H. Barnes (drawn by M. Turner)',
+ 'Offensive foul by A. Bogut',
+ 'Shooting foul by M. Turner (drawn by D. Powell)',
+ 'Shooting foul by J. Teague',
+ 'Loose ball foul by D. Powell (drawn by M. Turner)',
+ 'Shooting foul by C. Miles',
+ 'Shooting foul by J. Teague (drawn by W. Matthews)',
+ 'Personal foul by S. Curry (drawn by P. George)',
+ 'Personal foul by S. Curry (drawn by P. George)',
+ 'Shooting foul by P. George (drawn by D. Nowitzki)',
+ 'Personal foul by S. Curry (drawn by A. Jefferson)',
+ 'Shooting foul by M. Turner (drawn by W. Matthews)',
+ 'Personal block foul by W. Matthews (drawn by M. Ellis)',
+ 'Personal take foul by W. Matthews (drawn by J. Teague)',
+ 'Personal foul by W. Matthews (drawn by M. Turner)',
+ 'Personal take foul by J. Anderson (drawn by M. Ellis)',
+ 'Personal take foul by J. Anderson (drawn by M. Ellis)',
+ 'Personal foul by Q. Acy (drawn by J. Teague)',
+ 'Offensive foul by M. Turner',
+ 'Loose ball foul by M. Ellis (drawn by W. Matthews)',
+ 'Personal foul by J. Teague (drawn by D. Williams)',
+ 'Personal foul by P. George (drawn by W. Matthews)',
+ 'Shooting foul by W. Matthews (drawn by J. Teague)',
+ 'Shooting foul by D. Williams (drawn by J. Teague)',
+ 'Loose ball foul by L. Allen (drawn by D. Powell)',
+ 'Shooting block foul by J. Young',
+ 'Shooting foul by D. Powell (drawn by A. Jefferson)',
+ 'Personal foul by J. Teague (drawn by D. Powell)',
+ 'Shooting foul by J. Barea (drawn by J. Teague)',
+ 'Offensive charge foul by T. Young',
+ 'Loose ball foul by T. Young (drawn by H. Barnes)',
+ 'Personal foul by M. Ellis (drawn by W. Matthews)',
+ 'Shooting foul by A. Bogut (drawn by M. Turner)',
+ 'Personal foul by M. Ellis (drawn by W. Matthews)',
+ 'Shooting foul by H. Barnes (drawn by P. George)',
+ 'Shooting foul by D. Williams (drawn by P. George)',
+ 'Shooting foul by D. Williams (drawn by M. Ellis)',
+ 'Personal foul by A. Jefferson (drawn by D. Williams)',
+ 'Shooting foul by S. Curry (drawn by M. Ellis)',
+ 'Shooting foul by D. Nowitzki (drawn by M. Turner)',
+ 'Personal foul by T. Young (drawn by H. Barnes)',
+ 'Personal foul by T. Young (drawn by H. Barnes)',
+ 'Shooting block foul by T. Young (drawn by W. Matthews)',
+ 'Offensive foul by M. Turner']
+</code></pre>
+
+<pre><code class="language-python">find_fouls_by = re.compile(r&quot;foul by (\w. \w*)($|\s)&quot;)
+fouls_by = [find_fouls_by.findall(foul)[0][0] for foul in fouls]
+fouls_by = list(filter(lambda name: name in minutes_played[&quot;Name&quot;].values, fouls_by))
+fouls_by_name = dict(st.itemfreq(fouls_by))
+fouls_by_name
+</code></pre>
+
+<pre><code>{'A. Bogut': '3',
+ 'A. Jefferson': '1',
+ 'C. Miles': '1',
+ 'D. Nowitzki': '1',
+ 'D. Powell': '2',
+ 'D. Williams': '4',
+ 'H. Barnes': '3',
+ 'J. Anderson': '2',
+ 'J. Barea': '1',
+ 'J. Teague': '4',
+ 'J. Young': '1',
+ 'L. Allen': '1',
+ 'M. Ellis': '3',
+ 'M. Turner': '4',
+ 'P. George': '2',
+ 'Q. Acy': '1',
+ 'S. Curry': '6',
+ 'T. Young': '6',
+ 'W. Matthews': '4'}
+</code></pre>
+
+<pre><code class="language-python">find_drawn_by = re.compile(r&quot;\(drawn by (\w. \w*)\)$&quot;)
+drawn_by = [find_drawn_by.findall(foul) for foul in fouls]
+drawn_by = list(filter(lambda res: len(res) &gt; 0, drawn_by))
+drawn_by = list(filter(lambda name: name in minutes_played[&quot;Name&quot;].values, drawn_by))
+drawn_by_name = dict(st.itemfreq(drawn_by))
+drawn_by_name
+</code></pre>
+
+<pre><code>{'A. Bogut': '1',
+ 'A. Jefferson': '2',
+ 'D. Nowitzki': '1',
+ 'D. Powell': '3',
+ 'D. Williams': '2',
+ 'H. Barnes': '3',
+ 'J. Teague': '7',
+ 'M. Ellis': '5',
+ 'M. Turner': '6',
+ 'P. George': '4',
+ 'R. Stuckey': '2',
+ 'W. Matthews': '7'}
+</code></pre>
+
+<pre><code class="language-python">minutes_played[&quot;fouls&quot;] = minutes_played[&quot;Name&quot;].map(fouls_by_name)
+minutes_played[&quot;fouls drawn&quot;] = minutes_played[&quot;Name&quot;].map(drawn_by_name)
+
+minutes_played.fillna(0, inplace=True)
+minutes_played[[&quot;fouls&quot;, &quot;fouls drawn&quot;]] = minutes_played[[&quot;fouls&quot;, &quot;fouls drawn&quot;]].astype(int)
+
+minutes_played
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>MP</th>
+      <th>fouls</th>
+      <th>fouls drawn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>D. Williams</th>
+      <td>40.000000</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>W. Matthews</th>
+      <td>39.616667</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>D. Nowitzki</th>
+      <td>38.400000</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>H. Barnes</th>
+      <td>34.683333</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>A. Bogut</th>
+      <td>19.666667</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>J. Barea</th>
+      <td>39.116667</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>J. Anderson</th>
+      <td>19.316667</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>D. Powell</th>
+      <td>16.483333</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>S. Curry</th>
+      <td>15.750000</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Q. Acy</th>
+      <td>0.933333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>N. Brussino</th>
+      <td>0.583333</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>M. Ellis</th>
+      <td>44.016667</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>P. George</th>
+      <td>42.766667</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>M. Turner</th>
+      <td>37.483333</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>J. Teague</th>
+      <td>36.750000</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>T. Young</th>
+      <td>34.216667</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>R. Stuckey</th>
+      <td>21.900000</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>C. Miles</th>
+      <td>12.550000</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>A. Jefferson</th>
+      <td>10.900000</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>L. Allen</th>
+      <td>10.733333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>G. Robinson</th>
+      <td>10.233333</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>J. Young</th>
+      <td>3.450000</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<pre><code class="language-python">minutes_played[&quot;fouls/min&quot;] = minutes_played[&quot;fouls&quot;] / minutes_played[&quot;MP&quot;]
+minutes_played[&quot;drawn/min&quot;] = minutes_played[&quot;fouls drawn&quot;] / minutes_played[&quot;MP&quot;]
+
+minutes_played
+</code></pre>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>MP</th>
+      <th>fouls</th>
+      <th>fouls drawn</th>
+      <th>fouls/min</th>
+      <th>drawn/min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>D. Williams</th>
+      <td>40.000000</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0.100000</td>
+      <td>0.050000</td>
+    </tr>
+    <tr>
+      <th>W. Matthews</th>
+      <td>39.616667</td>
+      <td>4</td>
+      <td>7</td>
+      <td>0.100968</td>
+      <td>0.176693</td>
+    </tr>
+    <tr>
+      <th>D. Nowitzki</th>
+      <td>38.400000</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.026042</td>
+      <td>0.026042</td>
+    </tr>
+    <tr>
+      <th>H. Barnes</th>
+      <td>34.683333</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.086497</td>
+      <td>0.086497</td>
+    </tr>
+    <tr>
+      <th>A. Bogut</th>
+      <td>19.666667</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0.152542</td>
+      <td>0.050847</td>
+    </tr>
+    <tr>
+      <th>J. Barea</th>
+      <td>39.116667</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.025565</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>J. Anderson</th>
+      <td>19.316667</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.103538</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>D. Powell</th>
+      <td>16.483333</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.121335</td>
+      <td>0.182002</td>
+    </tr>
+    <tr>
+      <th>S. Curry</th>
+      <td>15.750000</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.380952</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Q. Acy</th>
+      <td>0.933333</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.071429</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>N. Brussino</th>
+      <td>0.583333</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>M. Ellis</th>
+      <td>44.016667</td>
+      <td>3</td>
+      <td>5</td>
+      <td>0.068156</td>
+      <td>0.113593</td>
+    </tr>
+    <tr>
+      <th>P. George</th>
+      <td>42.766667</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0.046765</td>
+      <td>0.093531</td>
+    </tr>
+    <tr>
+      <th>M. Turner</th>
+      <td>37.483333</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0.106714</td>
+      <td>0.160071</td>
+    </tr>
+    <tr>
+      <th>J. Teague</th>
+      <td>36.750000</td>
+      <td>4</td>
+      <td>7</td>
+      <td>0.108844</td>
+      <td>0.190476</td>
+    </tr>
+    <tr>
+      <th>T. Young</th>
+      <td>34.216667</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.175353</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>R. Stuckey</th>
+      <td>21.900000</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0.000000</td>
+      <td>0.091324</td>
+    </tr>
+    <tr>
+      <th>C. Miles</th>
+      <td>12.550000</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.079681</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>A. Jefferson</th>
+      <td>10.900000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.091743</td>
+      <td>0.183486</td>
+    </tr>
+    <tr>
+      <th>L. Allen</th>
+      <td>10.733333</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.093168</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>G. Robinson</th>
+      <td>10.233333</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>J. Young</th>
+      <td>3.450000</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.289855</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<pre><code class="language-python">minutes_played.loc[minutes_played[&quot;fouls/min&quot;].idxmax()]
+</code></pre>
+
+<pre><code>Name             Q. Acy
+MP             0.933333
+fouls                 1
+fouls drawn           0
+fouls/min       1.07143
+drawn/min             0
+Name: Q. Acy, dtype: object
+</code></pre>
+
+<pre><code class="language-python">minutes_played.loc[minutes_played[&quot;drawn/min&quot;].idxmax()]
+</code></pre>
+
+<pre><code>Name           J. Teague
+MP                 36.75
+fouls                  4
+fouls drawn            7
+fouls/min       0.108844
+drawn/min       0.190476
+Name: J. Teague, dtype: object
+</code></pre>
+</section>
+
+<footer>
+	<hr>
+	<div class="copyright">
+  <p> &copy; 2014-2017 Connor Greenwell.  All rights reserved.  </p>
+  </div>
+</footer>
+
+</body>
+</html>
+
