@@ -16,7 +16,7 @@
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/deeptransient/</guid>
-      <description>Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
+      <description>⊕   Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/geofacial/</guid>
-      <description>Abstract While face analysis from images is a well-studied area, little work has explored the dependence of facial appearance on the geographic location from which the image was captured. To fill this gap, we constructed GeoFaces, a large dataset of geotagged face images, and used it to examine the geo-dependence of facial features and attributes, such as ethnicity, gender, or the presence of facial hair. Our analysis illuminates the relationship between raw facial appearance, facial attributes, and geographic location, both globally and in selected major urban areas.</description>
+      <description>⊕   Abstract While face analysis from images is a well-studied area, little work has explored the dependence of facial appearance on the geographic location from which the image was captured. To fill this gap, we constructed GeoFaces, a large dataset of geotagged face images, and used it to examine the geo-dependence of facial features and attributes, such as ethnicity, gender, or the presence of facial hair. Our analysis illuminates the relationship between raw facial appearance, facial attributes, and geographic location, both globally and in selected major urban areas.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/geofaceexplorer/</guid>
-      <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
+      <description>⊕   Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
     </item>
     
   </channel>
