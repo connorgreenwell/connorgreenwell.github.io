@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://connorgreenwell.github.io/news/what_goes_where/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://connorgreenwell.github.io/publication/what_goes_where/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://connorgreenwell.github.io/blog/fouls_by_and_drawn/</loc>
     <lastmod>2017-11-21T00:00:00+00:00</lastmod>
   </url>
@@ -48,11 +58,6 @@
   </url>
   
   <url>
-    <loc>https://connorgreenwell.github.io/blog/hackathon2014/</loc>
-    <lastmod>2014-08-28T14:01:07-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://connorgreenwell.github.io/publication/geofaceexplorer/</loc>
     <lastmod>2014-06-28T00:00:00+00:00</lastmod>
   </url>
@@ -75,18 +80,18 @@
   
   <url>
     <loc>https://connorgreenwell.github.io/</loc>
-    <lastmod>2017-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://connorgreenwell.github.io/news/</loc>
-    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://connorgreenwell.github.io/publication/</loc>
-    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

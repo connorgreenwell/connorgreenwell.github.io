@@ -66,31 +66,14 @@
   <p>
   <a href="https://connorgreenwell.github.io/blog/fouls_by_and_drawn/">An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season</a>
   <em><time class="date-meta">Nov 21, 2017</time></em>
-</p>
+  </p>
 
-<p> 
-  <p></p> 
+  <p> 
+  req = requests.get(&quot;https://www.basketball-reference.com/boxscores/201610260IND.html&quot;) box_html = str(req.content) boxes = pd.read_html(box_html)  minutes_played = pd.concat([boxes[0][[0, 1]], boxes[2][[0, 1]]]) minutes_played.columns = [&quot;Name&quot;, &quot;MP&quot;] minutes_played.drop( minutes_played.index[minutes_played[&quot;MP&quot;].str.contains(&quot;MP&quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&quot;MP&quot;].str.contains(&quot;Did Not Play&quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&quot;Name&quot;].str.contains(&quot;Team Totals&quot;)], inplace=True) # convert &quot;time remaining in quarter&quot; to &quot;time elapsed in game&quot; def stime_to_float(stime): import datetime dt = datetime.datetime.strptime(stime, &quot;%M:%S&quot;) return dt.minute + (dt.second / 60.0) minutes_played[&quot;MP&quot;] = minutes_played[&quot;MP&quot;].apply(stime_to_float) def short_name(name): first, last = name.split() return &quot;{}. {}&quot;. 
   
   <em><a href="/blog/fouls_by_and_drawn/">Read More…</a></em>
   
-</p>
-
-</li>
-
-<li>
-  <p>
-  <a href="https://connorgreenwell.github.io/blog/hackathon2014/">LastFM/REU Mashup</a>
-  <em><time class="date-meta">Aug 28, 2014</time></em>
-</p>
-
-<p> 
-  A web app with the lighthearted goal of identifying REU sites that satisfy both a students research interests and their musical taste. Suggested sites are defined as those that are within the intersection of states that contain a relevant REU site and states that will host a concert by the relevant artist that summer (e.g. &ldquo;states that contain micro-biology&rdquo; &cap; &ldquo;states that will host Kanye West&rdquo;).
-This was written in less than 12 hours as part of the UK ACM&rsquo;s Fall 2014 Hackathon. 
-  
-  <em><a href="/blog/hackathon2014/">Read More…</a></em>
-  
-</p>
-
+  </p>
 </li>
 
 </ul>

@@ -5,10 +5,28 @@
     <link>https://connorgreenwell.github.io/</link>
     <description>Recent content on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://connorgreenwell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>One paper published at IGARSS 2018</title>
+      <link>https://connorgreenwell.github.io/news/what_goes_where/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://connorgreenwell.github.io/news/what_goes_where/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Goes Where: Predicting Object Distributions From Above</title>
+      <link>https://connorgreenwell.github.io/publication/what_goes_where/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://connorgreenwell.github.io/publication/what_goes_where/</guid>
+      <description>Abstract In this work, we propose a cross-view learning approach, in which images captured from a ground-level view are used as weakly supervised annotations for interpreting overhead imagery. The outcome is a convolutional neural network for overhead imagery that is capable of predicting the type and count of objects that are likely to be seen from a ground-level perspective. We demonstrate our approach on a large dataset of geotagged ground-level and overhead imagery and find that our network captures semantically meaningful features, despite being trained without manual annotations.</description>
+    </item>
     
     <item>
       <title>An Analysis of Fouls, By and Drawn, From One Game in the 2016 NBA Regular Season</title>
@@ -16,7 +34,7 @@
       <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/blog/fouls_by_and_drawn/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description>req = requests.get(&amp;quot;https://www.basketball-reference.com/boxscores/201610260IND.html&amp;quot;) box_html = str(req.content) boxes = pd.read_html(box_html)  minutes_played = pd.concat([boxes[0][[0, 1]], boxes[2][[0, 1]]]) minutes_played.columns = [&amp;quot;Name&amp;quot;, &amp;quot;MP&amp;quot;] minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;MP&amp;quot;].str.contains(&amp;quot;MP&amp;quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;MP&amp;quot;].str.contains(&amp;quot;Did Not Play&amp;quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;Name&amp;quot;].str.contains(&amp;quot;Team Totals&amp;quot;)], inplace=True) # convert &amp;quot;time remaining in quarter&amp;quot; to &amp;quot;time elapsed in game&amp;quot; def stime_to_float(stime): import datetime dt = datetime.datetime.strptime(stime, &amp;quot;%M:%S&amp;quot;) return dt.minute + (dt.second / 60.0) minutes_played[&amp;quot;MP&amp;quot;] = minutes_played[&amp;quot;MP&amp;quot;].apply(stime_to_float) def short_name(name): first, last = name.split() return &amp;quot;{}. {}&amp;quot;.</description>
     </item>
     
     <item>
@@ -34,7 +52,7 @@
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/deeptransient/</guid>
-      <description>⊕   Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
+      <description>Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
     </item>
     
     <item>
@@ -79,7 +97,7 @@
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/geofacial/</guid>
-      <description>⊕   Abstract While face analysis from images is a well-studied area, little work has explored the dependence of facial appearance on the geographic location from which the image was captured. To fill this gap, we constructed GeoFaces, a large dataset of geotagged face images, and used it to examine the geo-dependence of facial features and attributes, such as ethnicity, gender, or the presence of facial hair. Our analysis illuminates the relationship between raw facial appearance, facial attributes, and geographic location, both globally and in selected major urban areas.</description>
+      <description>Abstract While face analysis from images is a well-studied area, little work has explored the dependence of facial appearance on the geographic location from which the image was captured. To fill this gap, we constructed GeoFaces, a large dataset of geotagged face images, and used it to examine the geo-dependence of facial features and attributes, such as ethnicity, gender, or the presence of facial hair. Our analysis illuminates the relationship between raw facial appearance, facial attributes, and geographic location, both globally and in selected major urban areas.</description>
     </item>
     
     <item>
@@ -92,22 +110,12 @@
     </item>
     
     <item>
-      <title>LastFM/REU Mashup</title>
-      <link>https://connorgreenwell.github.io/blog/hackathon2014/</link>
-      <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/blog/hackathon2014/</guid>
-      <description>A web app with the lighthearted goal of identifying REU sites that satisfy both a students research interests and their musical taste. Suggested sites are defined as those that are within the intersection of states that contain a relevant REU site and states that will host a concert by the relevant artist that summer (e.g. &amp;ldquo;states that contain micro-biology&amp;rdquo; &amp;cap; &amp;ldquo;states that will host Kanye West&amp;rdquo;).
-This was written in less than 12 hours as part of the UK ACM&amp;rsquo;s Fall 2014 Hackathon.</description>
-    </item>
-    
-    <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
       <link>https://connorgreenwell.github.io/publication/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/publication/geofaceexplorer/</guid>
-      <description>⊕   Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
+      <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
     </item>
     
     <item>

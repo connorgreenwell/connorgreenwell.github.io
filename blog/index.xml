@@ -16,17 +16,7 @@
       <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://connorgreenwell.github.io/blog/fouls_by_and_drawn/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>LastFM/REU Mashup</title>
-      <link>https://connorgreenwell.github.io/blog/hackathon2014/</link>
-      <pubDate>Thu, 28 Aug 2014 14:01:07 -0400</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/blog/hackathon2014/</guid>
-      <description>A web app with the lighthearted goal of identifying REU sites that satisfy both a students research interests and their musical taste. Suggested sites are defined as those that are within the intersection of states that contain a relevant REU site and states that will host a concert by the relevant artist that summer (e.g. &amp;ldquo;states that contain micro-biology&amp;rdquo; &amp;cap; &amp;ldquo;states that will host Kanye West&amp;rdquo;).
-This was written in less than 12 hours as part of the UK ACM&amp;rsquo;s Fall 2014 Hackathon.</description>
+      <description>req = requests.get(&amp;quot;https://www.basketball-reference.com/boxscores/201610260IND.html&amp;quot;) box_html = str(req.content) boxes = pd.read_html(box_html)  minutes_played = pd.concat([boxes[0][[0, 1]], boxes[2][[0, 1]]]) minutes_played.columns = [&amp;quot;Name&amp;quot;, &amp;quot;MP&amp;quot;] minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;MP&amp;quot;].str.contains(&amp;quot;MP&amp;quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;MP&amp;quot;].str.contains(&amp;quot;Did Not Play&amp;quot;)], inplace=True) minutes_played.drop( minutes_played.index[minutes_played[&amp;quot;Name&amp;quot;].str.contains(&amp;quot;Team Totals&amp;quot;)], inplace=True) # convert &amp;quot;time remaining in quarter&amp;quot; to &amp;quot;time elapsed in game&amp;quot; def stime_to_float(stime): import datetime dt = datetime.datetime.strptime(stime, &amp;quot;%M:%S&amp;quot;) return dt.minute + (dt.second / 60.0) minutes_played[&amp;quot;MP&amp;quot;] = minutes_played[&amp;quot;MP&amp;quot;].apply(stime_to_float) def short_name(name): first, last = name.split() return &amp;quot;{}. {}&amp;quot;.</description>
     </item>
     
   </channel>
