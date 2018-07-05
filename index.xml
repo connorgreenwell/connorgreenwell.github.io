@@ -5,10 +5,28 @@
     <link>https://connorgreenwell.github.io/</link>
     <description>Recent content on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://connorgreenwell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Geo-Temporal Image Feature</title>
+      <link>https://connorgreenwell.github.io/publication/learning_geotemporal_features/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://connorgreenwell.github.io/publication/learning_geotemporal_features/</guid>
+      <description> Bibtex @inproceedings{zhai2018geotemporal, title = {Learning Geo-Temporal Image Features}, author = {Zhai, Menghua and Salem, Tawfiq and Greenwell, Connor and Workman, Scott and Pless, Robert and Jacobs, Nathan}, annotation = {career,amos,webcam}, booktitle = {British Machine Vision Conference (BMVC)}, year = {2018} }  </description>
+    </item>
+    
+    <item>
+      <title>One paper published at BMVC 2018</title>
+      <link>https://connorgreenwell.github.io/news/201807_deep_pca/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://connorgreenwell.github.io/news/201807_deep_pca/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>One paper published at IGARSS 2018</title>

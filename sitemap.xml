@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://connorgreenwell.github.io/publication/learning_geotemporal_features/</loc>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://connorgreenwell.github.io/news/201807_deep_pca/</loc>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://connorgreenwell.github.io/news/what_goes_where/</loc>
     <lastmod>2018-05-04T00:00:00+00:00</lastmod>
   </url>
@@ -69,18 +79,18 @@
   
   <url>
     <loc>https://connorgreenwell.github.io/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://connorgreenwell.github.io/news/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://connorgreenwell.github.io/publication/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
