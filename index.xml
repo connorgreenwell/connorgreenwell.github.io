@@ -1,139 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Connor Greenwell</title>
-    <link>https://connorgreenwell.github.io/</link>
-    <description>Recent content on Connor Greenwell</description>
+    <title>About Me on Connor Greenwell</title>
+    <link>http://connorgreenwell.com/</link>
+    <description>Recent content in About Me on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://connorgreenwell.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://connorgreenwell.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Learning Geo-Temporal Image Feature</title>
-      <link>https://connorgreenwell.github.io/publication/learning_geotemporal_features/</link>
+      <link>http://connorgreenwell.com/publication/learning_geotemporal_features/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/learning_geotemporal_features/</guid>
+      <guid>http://connorgreenwell.com/publication/learning_geotemporal_features/</guid>
       <description> Bibtex @inproceedings{zhai2018geotemporal, title = {Learning Geo-Temporal Image Features}, author = {Zhai, Menghua and Salem, Tawfiq and Greenwell, Connor and Workman, Scott and Pless, Robert and Jacobs, Nathan}, annotation = {career,amos,webcam}, booktitle = {British Machine Vision Conference (BMVC)}, year = {2018} }  </description>
     </item>
     
     <item>
       <title>One paper published at BMVC 2018</title>
-      <link>https://connorgreenwell.github.io/news/201807_deep_pca/</link>
+      <link>http://connorgreenwell.com/news/201807_deep_pca/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/201807_deep_pca/</guid>
+      <guid>http://connorgreenwell.com/news/201807_deep_pca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>One paper published at IGARSS 2018</title>
-      <link>https://connorgreenwell.github.io/news/what_goes_where/</link>
+      <link>http://connorgreenwell.com/news/what_goes_where/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/what_goes_where/</guid>
+      <guid>http://connorgreenwell.com/news/what_goes_where/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What Goes Where: Predicting Object Distributions From Above</title>
-      <link>https://connorgreenwell.github.io/publication/what_goes_where/</link>
+      <link>http://connorgreenwell.com/publication/what_goes_where/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/what_goes_where/</guid>
+      <guid>http://connorgreenwell.com/publication/what_goes_where/</guid>
       <description>Abstract In this work, we propose a cross-view learning approach, in which images captured from a ground-level view are used as weakly supervised annotations for interpreting overhead imagery. The outcome is a convolutional neural network for overhead imagery that is capable of predicting the type and count of objects that are likely to be seen from a ground-level perspective. We demonstrate our approach on a large dataset of geotagged ground-level and overhead imagery and find that our network captures semantically meaningful features, despite being trained without manual annotations.</description>
     </item>
     
     <item>
-      <title>Started PhD at UK</title>
-      <link>https://connorgreenwell.github.io/news/started_phd/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/started_phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A Fast Method for Estimating Transient Scene Attributes</title>
-      <link>https://connorgreenwell.github.io/publication/deeptransient/</link>
+      <link>http://connorgreenwell.com/publication/deeptransient/</link>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/deeptransient/</guid>
+      <guid>http://connorgreenwell.com/publication/deeptransient/</guid>
       <description>Abstract We propose to use deep convolutional neural networks to estimate the transient attributes of a scene from a single image. Transient scene attributes describe both the objective conditions, such as the weather, time of day, and the season, and subjective properties of a scene, such as whether or not the scene seems busy. Recently, convolutional neural networks have been used to achieve state-of-the-art results for many vision problems, from object detection to scene classification, but have not previously been used for estimating transient attributes.</description>
     </item>
     
     <item>
       <title>A Fast Method for Estimating Transient Scene Attributes accepted to WACV</title>
-      <link>https://connorgreenwell.github.io/news/deeptransient/</link>
+      <link>http://connorgreenwell.com/news/deeptransient/</link>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/deeptransient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graduated from UK CS Undergrad</title>
-      <link>https://connorgreenwell.github.io/news/graduated_undergrad/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://connorgreenwell.github.io/news/graduated_undergrad/</guid>
+      <guid>http://connorgreenwell.com/news/deeptransient/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DeepFocal: A Method for Direct Focal Length Estimation</title>
-      <link>https://connorgreenwell.github.io/publication/deepfocal/</link>
+      <link>http://connorgreenwell.com/publication/deepfocal/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/deepfocal/</guid>
-      <description>⊕   Abstract Estimating the focal length of an image is an important preprocessing step for many applications. Despite this, existing methods for single-view focal length estimation are limited in that they require particular geometric calibration objects, such as orthogonal vanishing points, co-planar circles, or a calibration grid, to occur in the field of view. In this work, we explore the application of a deep convolutional neural network, trained on natural images obtained from Internet photo collections, to directly estimate the focal length using only raw pixel intensities as input features.</description>
+      <guid>http://connorgreenwell.com/publication/deepfocal/</guid>
+      <description>Abstract Estimating the focal length of an image is an important preprocessing step for many applications. Despite this, existing methods for single-view focal length estimation are limited in that they require particular geometric calibration objects, such as orthogonal vanishing points, co-planar circles, or a calibration grid, to occur in the field of view. In this work, we explore the application of a deep convolutional neural network, trained on natural images obtained from Internet photo collections, to directly estimate the focal length using only raw pixel intensities as input features.</description>
     </item>
     
     <item>
       <title>DeepFocal: A Method for Direct Focal Length Estimation accepted to ICIP</title>
-      <link>https://connorgreenwell.github.io/news/deepfocal/</link>
+      <link>http://connorgreenwell.com/news/deepfocal/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/deepfocal/</guid>
+      <guid>http://connorgreenwell.com/news/deepfocal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large-Scale Geo-Facial Image Analysis</title>
-      <link>https://connorgreenwell.github.io/publication/geofacial/</link>
+      <link>http://connorgreenwell.com/publication/geofacial/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/geofacial/</guid>
+      <guid>http://connorgreenwell.com/publication/geofacial/</guid>
       <description>Abstract While face analysis from images is a well-studied area, little work has explored the dependence of facial appearance on the geographic location from which the image was captured. To fill this gap, we constructed GeoFaces, a large dataset of geotagged face images, and used it to examine the geo-dependence of facial features and attributes, such as ethnicity, gender, or the presence of facial hair. Our analysis illuminates the relationship between raw facial appearance, facial attributes, and geographic location, both globally and in selected major urban areas.</description>
     </item>
     
     <item>
       <title>Large-Scale Geo-Facial Image Analysis accepted to EURASIP</title>
-      <link>https://connorgreenwell.github.io/news/geofacial/</link>
+      <link>http://connorgreenwell.com/news/geofacial/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/geofacial/</guid>
+      <guid>http://connorgreenwell.com/news/geofacial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
-      <link>https://connorgreenwell.github.io/publication/geofaceexplorer/</link>
+      <link>http://connorgreenwell.com/publication/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/publication/geofaceexplorer/</guid>
+      <guid>http://connorgreenwell.com/publication/geofaceexplorer/</guid>
       <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
     </item>
     
     <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes accepted to ACM SIGSPATIAL (GEOCROWD)</title>
-      <link>https://connorgreenwell.github.io/news/geofaceexplorer/</link>
+      <link>http://connorgreenwell.com/news/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://connorgreenwell.github.io/news/geofaceexplorer/</guid>
+      <guid>http://connorgreenwell.com/news/geofaceexplorer/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Research Art</title>
+      <link>http://connorgreenwell.com/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/art/</guid>
+      <description>Periodically while doing research or making figures for slides/papers, I make something cool or worth sharing outside the context of the work. This is one of the perks of Computer Vision and Big Data: pleasing patterns and visuals frequently emerge in unexpected ways.
+This page is inspired by Dr. R. Paul Mihail :: Jet Art.
+  </description>
     </item>
     
   </channel>

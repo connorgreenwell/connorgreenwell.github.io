@@ -1,0 +1,47 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 40px auto;
+    max-width: 35em;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px
+}
+
+header {
+    font-size: 120%;
+}
+
+footer {
+    font-size: 80%;
+}
+
+h1, h2, h3 {
+    line-height: 1.2
+}
+
+p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+figure img {
+    display: block;
+    margin-left: 50%;
+	transform: translateX(-50%);
+/*
+    max-height: 20em;
+    max-width: 100%;
+*/
+}
+
+figure figcaption p {
+    font-weight: bolder;
+}
+
+pre code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 80%;
+    display: block;
+    overflow-x: scroll;
+}
