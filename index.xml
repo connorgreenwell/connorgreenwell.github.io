@@ -21,24 +21,6 @@
     </item>
     
     <item>
-      <title>One paper published at BMVC 2018</title>
-      <link>http://connorgreenwell.com/news/201807_deep_pca/</link>
-      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/201807_deep_pca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One paper published at IGARSS 2018</title>
-      <link>http://connorgreenwell.com/news/what_goes_where/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/what_goes_where/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>What Goes Where: Predicting Object Distributions From Above</title>
       <link>http://connorgreenwell.com/publication/what_goes_where/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
@@ -57,30 +39,12 @@
     </item>
     
     <item>
-      <title>A Fast Method for Estimating Transient Scene Attributes accepted to WACV</title>
-      <link>http://connorgreenwell.com/news/deeptransient/</link>
-      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/deeptransient/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DeepFocal: A Method for Direct Focal Length Estimation</title>
       <link>http://connorgreenwell.com/publication/deepfocal/</link>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>http://connorgreenwell.com/publication/deepfocal/</guid>
       <description>Abstract Estimating the focal length of an image is an important preprocessing step for many applications. Despite this, existing methods for single-view focal length estimation are limited in that they require particular geometric calibration objects, such as orthogonal vanishing points, co-planar circles, or a calibration grid, to occur in the field of view. In this work, we explore the application of a deep convolutional neural network, trained on natural images obtained from Internet photo collections, to directly estimate the focal length using only raw pixel intensities as input features.</description>
-    </item>
-    
-    <item>
-      <title>DeepFocal: A Method for Direct Focal Length Estimation accepted to ICIP</title>
-      <link>http://connorgreenwell.com/news/deepfocal/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/deepfocal/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -93,30 +57,12 @@
     </item>
     
     <item>
-      <title>Large-Scale Geo-Facial Image Analysis accepted to EURASIP</title>
-      <link>http://connorgreenwell.com/news/geofacial/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/geofacial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes</title>
       <link>http://connorgreenwell.com/publication/geofaceexplorer/</link>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>http://connorgreenwell.com/publication/geofaceexplorer/</guid>
       <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
-    </item>
-    
-    <item>
-      <title>GeoFaceExplorer: Exploring the Geo-Dependence of Facial Attributes accepted to ACM SIGSPATIAL (GEOCROWD)</title>
-      <link>http://connorgreenwell.com/news/geofaceexplorer/</link>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/news/geofaceexplorer/</guid>
-      <description></description>
     </item>
     
     <item>
