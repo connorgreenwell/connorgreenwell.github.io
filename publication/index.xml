@@ -6,13 +6,22 @@
     <description>Recent content in Publications on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://connorgreenwell.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Learning Geo-Temporal Image Feature</title>
+      <title>Learning to Map Nearly Anything</title>
+      <link>http://connorgreenwell.com/publication/learning_to_map/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publication/learning_to_map/</guid>
+      <description> Bibtex @inproceedings{salem2019anything, author = {Salem, Tawfiq and Greenwell, Connor and Blanton, Hunter and Jacobs, Nathan}, title = {Learning to Map Nearly Anything}, year = {2019}, booktitle = {IEEE International Geoscience and Remote Sensing Symposium (IGARSS)}, annotation = {career,remote_sensing,social_media} }  </description>
+    </item>
+    
+    <item>
+      <title>Learning Geo-Temporal Image Features</title>
       <link>http://connorgreenwell.com/publication/learning_geotemporal_features/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
