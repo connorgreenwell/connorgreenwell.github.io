@@ -1,24 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Connor Greenwell</title>
+    <title>Blog on Connor Greenwell</title>
     <link>http://connorgreenwell.com/post/</link>
-    <description>Recent content on Connor Greenwell</description>
+    <description>Recent content in Blog on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Apr 1969 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://connorgreenwell.com/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello, World</title>
-      <link>http://connorgreenwell.com/post/hello/</link>
-      <pubDate>Sun, 20 Apr 1969 00:00:00 +0000</pubDate>
-      
-      <guid>http://connorgreenwell.com/post/hello/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, eros ornare accumsan elementum, elit orci mattis nisl, in varius sem lacus eu velit. Praesent dapibus leo semper ex consectetur lacinia. Curabitur massa nunc, interdum at molestie sit amet, laoreet a sapien. Quisque magna est, congue a faucibus non, maximus et nunc. Proin eleifend feugiat massa a pellentesque. Aliquam erat volutpat. Vivamus non faucibus nulla, eget posuere nibh. Quisque maximus aliquet ante id ornare.</description>
-    </item>
     
   </channel>
 </rss>

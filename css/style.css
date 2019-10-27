@@ -2,11 +2,11 @@
 
 body {
     font-family: 'IBM Plex Serif', serif;
-    font-size: 16px;
+    font-size: 20px;
 
     margin: 0 auto;
-    padding: 4em 1.5em;
-    max-width: 38em;
+    padding: 2em 1.5em;
+    max-width: 35em;
     line-height: 1.5;
 
     color: #FFFFFF;
@@ -15,6 +15,7 @@ body {
 
 header {
     font-size: 120%;
+    margin: 0.5em 0;
 }
 
 footer {
@@ -24,10 +25,10 @@ footer {
 h1, h2, h3 {
     font-family: 'IBM Plex Sans', sans-serif;
     line-height: 1.2;
+    margin: 0;
 }
 
 h2, h3 {
-    margin-top: 1em;
 }
 
 p {
@@ -40,13 +41,15 @@ a {
 }
 
 hr {
+    margin: 1em 0;
     color: #FFFFFF;
 }
 
 figure img {
     display: block;
     margin-left: 50%;
-	transform: translateX(-50%);
+    background-color: #FFF;
+    transform: translateX(-50%);
 /*
     max-height: 20em;
     max-width: 100%;
