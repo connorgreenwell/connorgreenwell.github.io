@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://connorgreenwell.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Implicit Land Use Mapping Using Social Media Imagery</title>
+      <link>http://connorgreenwell.com/publication/implicit_land_use_mapping/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publication/implicit_land_use_mapping/</guid>
+      <description> Bibtex @inproceedings{greenwell2019implicit, author = {Greenwell, Connor and Workman, Scott and Jacobs, Nathan}, title = {Implicit Land Use Mapping Using Social Media Imagery}, year = {2019}, booktitle = {Applied Imagery Pattern Recognition (AIPR)}, }  </description>
+    </item>
     
     <item>
       <title>Learning to Map Nearly Anything</title>
