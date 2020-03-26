@@ -2,7 +2,7 @@
 
 body {
     font-family: 'IBM Plex Serif', serif;
-    font-size: 20px;
+    font-size: 18px;
 
     margin: 0 auto;
     padding: 2em 1.5em;
@@ -45,19 +45,34 @@ hr {
     color: #FFFFFF;
 }
 
+/*
 figure img {
     display: block;
     margin-left: 50%;
     background-color: #FFF;
     transform: translateX(-50%);
-/*
     max-height: 20em;
     max-width: 100%;
-*/
 }
 
 figure figcaption p {
     font-weight: bolder;
+}
+*/
+
+figure * {
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+img {
+    display: block;
+    min-width: 40%;
+    max-width: 100%;
 }
 
 pre code {
