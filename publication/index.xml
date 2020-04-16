@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Connor Greenwell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://connorgreenwell.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Single Image Cloud Detection via Multi-Image Fusion</title>
+      <link>http://connorgreenwell.com/publication/single_image_cloud_detection/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publication/single_image_cloud_detection/</guid>
+      <description> Bibtex @inproceedings{workman2020cloud, annotation = {career,remote_sensing}, author = {Workman, Scott and Rafique, M. Usman and Blanton, Hunter and Greenwell, Connor and Jacobs, Nathan}, booktitle = {IEEE International Geoscience and Remote Sensing Symposium (IGARSS)}, title = {Single Image Cloud Detection via Multi-Image Fusion}, year = {2020} }  </description>
+    </item>
     
     <item>
       <title>Implicit Land Use Mapping Using Social Media Imagery</title>
@@ -81,6 +90,15 @@
       
       <guid>http://connorgreenwell.com/publication/geofaceexplorer/</guid>
       <description>Abstract The images uploaded to social networking websites are a rich source of information about the appearance of people around the world. We present a system, GeoFaceExplorer, for collecting, processing, browsing, and analyzing this data. GeoFaceExplorer allows for the crowdsourced collection of human facial images, as well as automated and interactive visual analysis of the geo-dependence of facial appearance and visual attributes, such as ethnicity, gender, and whether or not a person is wearing glasses.</description>
+    </item>
+    
+    <item>
+      <title>Extending Absolute Pose Regression to Multiple Scenes</title>
+      <link>http://connorgreenwell.com/publication/multi_absolute_pose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/publication/multi_absolute_pose/</guid>
+      <description> Bibtex COMING SOON  </description>
     </item>
     
   </channel>
