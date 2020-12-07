@@ -112,5 +112,14 @@ This page is inspired by Dr. R. Paul Mihail :: Jet Art.
   </description>
     </item>
     
+    <item>
+      <title>topic models of CVPR 2020</title>
+      <link>http://connorgreenwell.com/post/ml_topics/cvpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://connorgreenwell.com/post/ml_topics/cvpr/</guid>
+      <description>Unsupervised Learning of Probably Symmetric Deformable 3D Objects From Images in the Wild [pdf] Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 Footprints and Free Space From a Single Color Image [pdf] Jamie Watson, Michael Firman, Aron Monszpart, Gabriel J. Brostow 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0444 0.0000 0.0000 0.0000 0.</description>
+    </item>
+    
   </channel>
 </rss>
