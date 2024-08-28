@@ -1,85 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://connorgreenwell.com/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/multi_absolute_pose/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/single_image_cloud_detection/</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/implicit_land_use_mapping/</loc>
-    <lastmod>2019-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/learning_to_map/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/learning_geotemporal_features/</loc>
-    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/what_goes_where/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/deeptransient/</loc>
-    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/deepfocal/</loc>
-    <lastmod>2015-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/geofacial/</loc>
-    <lastmod>2015-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/publication/geofaceexplorer/</loc>
-    <lastmod>2014-06-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://connorgreenwell.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/art/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://connorgreenwell.com/tags/</loc>
   </url>
-  
-  <url>
-    <loc>http://connorgreenwell.com/post/ml_topics/cvpr/</loc>
-  </url>
-  
 </urlset>
